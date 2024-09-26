@@ -2,6 +2,8 @@
 import re
 from burp import IBurpExtender, IHttpListener, IScanIssue
 
+# novo comentario
+
 def validate_cpf(cpf):
     # check if all digits are the same (11111111111)
     if cpf == cpf[0] * 11:
